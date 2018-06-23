@@ -30,10 +30,10 @@ app.use((req, res, next)=>{
   next();
 });
 
-app.use((req, res, next)=>{
+/*app.use((req, res, next)=>{
   res.render('maintenance.hbs')
 });
-
+*/
 app.get('/', (req, res) =>{
 //res.send('<h1> Hi Express on node <h1>')
 //app.use('/static', express.static(path.join(__dirname, 'public')));
